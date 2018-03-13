@@ -29,5 +29,7 @@ namespace MVCTutorial.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<MVCTutorial.Models.Product> Products { get; set; }
     }
 }

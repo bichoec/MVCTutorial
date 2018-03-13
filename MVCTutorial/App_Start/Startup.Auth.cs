@@ -58,11 +58,11 @@ namespace MVCTutorial
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "110556544238-9ni4bafsb6mvapsog002q4u84mrrecll.apps.googleusercontent.com",
+                ClientSecret = "SNynNXRwJ2mN-CQiW7zr341D"
+            });
         }
     }
 }
